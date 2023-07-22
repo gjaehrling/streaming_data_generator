@@ -1,0 +1,69 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "User",
+  "description": "generated user data",
+  "type": "object",
+  "properties": {
+    "id": {
+      "description": "User id",
+      "type": "number"
+    },
+    "name": {
+      "description": "User name",
+      "type": "string"
+    },
+    "sex": {
+      "description": "User sex",
+      "type": "string"
+    },
+    "address": {
+      "description": "User address (street and number)",
+      "type": "string"
+    },
+    "city": {
+      "description": "User city",
+      "type": "string"
+    },
+    "zip": {
+      "description": "User zip code",
+      "type": "string"
+    },
+    "country": {
+      "description": "User country ",
+      "type": "string"
+    },
+    "phone": {
+      "description": "User phone number",
+      "type": "string"
+    },
+    "email": {
+      "description": "User email address",
+      "type": "string"
+    },
+    "image": {
+      "description": "link to a fake profile image",
+      "type": "string"
+    },
+    "date_of_birth": {
+      "description": "users date_of_birth",
+      "type": "string"
+    },
+    "profession": {
+      "description": "users profession",
+      "type": "string"
+    },
+    "created_at": {
+      "description": "date and time when the record was created",
+      "type": "string"
+    },
+    "updated_at": {
+      "description": "date and time when the record was updated",
+      "type": ["string", "null"]
+    },
+    "sourceTime": {
+      "description": "timestamp",
+      "type": ["number", "null"]
+    }
+  },
+  "required": [ "id", "name" ]
+}
