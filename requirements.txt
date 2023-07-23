@@ -1,0 +1,6 @@
+faker
+confluent-kafka
+requests
+jsonschema
+sseclient
+setdefaultencoding
