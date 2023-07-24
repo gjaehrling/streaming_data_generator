@@ -197,6 +197,12 @@ def run(topic, bootstrap_server, bootstrap_server_port, schema_registry, schema_
 if __name__ == '__main__':
     """
     main method using a parameter to the topic:
+    paramter: 
+    --topic: name of the topic
+    --bootstrapserver: hostname or address of the kafka broker
+    --bootstrapserverport: port the kafka broker
+    --schemaregistry: hostname or address of the schema registry
+    --schemaregistryport: port for schema registry
     """
 
     parser = argparse.ArgumentParser("define the topic")
